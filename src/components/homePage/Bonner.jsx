@@ -9,8 +9,8 @@ function Bonner() {
     <div>
         <div className='bonner' style={{}}>
       <div style={{width:'auto', margin:'30px ', padding:'20px'}}>
-      <h3 style={{fontSize:'25px', marginBottom:'20px'}}>What is Lorem Ipsum?</h3>
-        <p style={{lineHeight:'30px', color:'white'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <h3 style={{fontSize:'25px', marginBottom:'20px'}}>Help us Help someone that is in need</h3>
+        <p style={{lineHeight:'30px', color:'white'}}>A ray of hope ministries is dedicated to supporting families and children in need, focusing on uplifting low-income communities. Since 2014, we have providing essential resources such as food, clothing, educational materials and access to programs that promote health, education and personal development to hundreds. Help us change someone's life today by donating. Any amount will be greatly appreciated.</p>
       </div>
       
       <div className='bonnerDonateBtn'> 

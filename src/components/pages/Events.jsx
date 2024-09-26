@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImage from '../assets/images/IMG_0090-scaled.webp';
+import bgImage from '../assets/images/rohomimg11.jpg';
 
 function Events() {
   return (
@@ -9,11 +9,12 @@ function Events() {
   backgroundPosition: 'center',
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
-
+  backgroundColor:'rgba(0, 0, 0, 0.450)',
+  backgroundBlendMode: 'overlay',
   backgroundImage: "url(" + bgImage + ")"}}>
-
+<h3 style={{textAlign:'center', position:'relative', top:'250px', fontSize:'35px' }}>Our Work</h3>
     </div>
-  <h3>hello events</h3>
+  
   </div>
   )
 }

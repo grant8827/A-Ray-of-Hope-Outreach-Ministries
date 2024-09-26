@@ -7,6 +7,7 @@ import Contact from './components/pages/Contact';
 import Navbar from './components/header/Navbar';
 import Footer from './components/Footer';
 import Donate from './components/pages/Donate';
+import PaypalDonate from './components/ComponentItems/PaypalDonate';
 function App() {
   return (
     <Router>
@@ -17,11 +18,10 @@ function App() {
       <Route path='/events' element={<Events/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/donate' element={<Donate/>}/>
+      <Route path='/paypalDonate' element={<PaypalDonate/>}/>
     </Routes>
     <Footer/>
     </Router>
-    
   );
 }
-
 export default App;

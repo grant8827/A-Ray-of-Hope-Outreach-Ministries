@@ -6,11 +6,11 @@
 }
 
 :root{
-  --primary:#00148554;
+  --primary:#001385;
   --secondary:rgb(255, 193, 5);
   --white:#efefef;
   --black:#000000;
-  --headText:#00148554;
+  --headText:#001385;
 }
 
 html, body

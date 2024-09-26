@@ -1,6 +1,7 @@
 import React from 'react'
-import bgImage from '../assets/images/IMG_0090-scaled.webp';
-
+import { Link } from 'react-router-dom';
+import bgImage from '../assets/images/rohomimgimg13.jpg';
+import DonateCards from '../ComponentItems/DonateCards';
 function Donate() {
   return (
     <div style={{width:'100%', height:'100%',  justifyContent:'center'}}>
@@ -9,14 +10,23 @@ function Donate() {
   backgroundPosition: 'center',
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
-
+  backgroundColor:'rgba(0, 0, 0, 0.450)',
+  backgroundBlendMode: 'overlay',
   backgroundImage: "url(" + bgImage + ")"}}>
-
+<h3 style={{textAlign:'center', position:'relative', top:'250px', fontSize:'35px' }}>Donate</h3>
     </div>
-  <h3>hello Donate</h3>
+  <div className="donate" style={{display:'flex', flexWrap:'wrap', alignItems:'center', justifyContent:'center'}}>
+    <div style={{margin:'30px'}}>
+      <h3 style={{fontSize:'25px', marginBottom:'20px'}}>Donate Today</h3>
+      <p>Through community engagement and collaboration, we strive to ensure that every child has the opportunity to thrive, and every family can achieve stability and resilience.
+</p>
+    </div>
+    <DonateCards title="PAYPAL" message="Click the link below to donate with paypal" button= {<Link to="/paypaldonate"><button>Paypal</button></Link>} />
+    <DonateCards title="ZELLE" message="To donate with Zelle used the email below" button="arayofhopeoutreachmini@gmail.com "/>
+    <DonateCards title="CASHAPP" message="To donate with CashApp used the email below" button="arayofhopeoutreachmini@gmail.com "/>
+  </div>
   </div>
     
   )
 }
-
 export default Donate

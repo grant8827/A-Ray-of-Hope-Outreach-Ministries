@@ -5,7 +5,7 @@ import '../App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faFacebookF , faInstagram, faTiktok, faYoutube,faPaypal  } from '@fortawesome/free-brands-svg-icons';
 import { faZ, faDollar, } from '@fortawesome/free-solid-svg-icons'
-
+import logo from '../components/assets/images/A Ray of Hope Logo3 NO BACKGROUND.png'
 
 function Footer() {
   return (
@@ -14,8 +14,8 @@ function Footer() {
 <div className='topFooterItems'>
   
 <div style={{  padding:'20px', margin:'20px'}}>
-    <h3 style={{fontSize:'20px', marginBottom:'10px'}}>A Ray of Hope Outreach Ministries</h3>
-<div>LOGO HERE</div>
+    <h3 style={{fontSize:'20px', marginBottom:'10px'}}>Site Identity</h3>
+<div><img style={{width:'180px'}} src={logo} alt='logo'/></div>
 </div> 
 
 <div style={{ padding:'20px', margin:'20px'}}>

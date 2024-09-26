@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import "../../App.css";
 import Navbar from './Navbar';
-import headImg from '../assets/images/ComputerLab.webp';
+import headImg from '../assets/images/rohomimg9.jpg';
 function Head() {
 
   return (
@@ -23,9 +23,9 @@ function Head() {
        <div  style={{textAlign: 'center',justifyContent:'center', alignContent:'center',height:'700px',
 alignItems: 'center',
 }}>
-        <h3 style={{fontSize:'30px', marginBottom:'20px'}}>Welcome to </h3>
-       <h2 style={{fontSize:'50px', marginBottom:'20px'}}>A Ray of Hope Outreach Ministries inc</h2>
-       <p style={{color:'white', fontSize:'20px',  margin:'20PX' }}>The rainbow shall be in the cloud, and I will look on it to remember the everlasting covenant between God and every living creature of all flesh that is on the earth.</p>
+        <h3 style={{fontSize:'30px', marginBottom:'20px'}}>Welcome to</h3>
+       <h2 style={{fontSize:'50px', marginBottom:'20px'}}>A Ray of Hope Outreach Ministries inc </h2>
+       <p style={{color:'white', fontSize:'20px',  margin:'20PX' }}>And hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.</p>
        <div style={{width:'100%', justifyContent:'center', textAlign:'center', }}> <Link to="/about" ><button style={{width:''}}>More Info</button></Link></div>
 
        </div>
