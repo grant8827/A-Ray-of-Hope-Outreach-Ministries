@@ -1,6 +1,6 @@
 import React from 'react'
 import bgImage from '../assets/images/rohomimg11.jpg';
-import Datagallery from '../model/Datagallery';
+import Datagallery from '../ComponentItems/Datagallery';
 import image1 from '../assets/images/rohomimg11.jpg';
 import image2 from '../assets/images/rohomimg10.jpg';
 import image3 from '../assets/images/rohomimg12.jpg';
@@ -29,6 +29,7 @@ function Events() {
 <h3 style={{textAlign:'center', position:'relative', top:'250px', fontSize:'35px' }}>Our Work</h3>
     </div>
     <div style={{width:'100%', display:'flex', flexWrap:'wrap', justifyContent:'center'}}>
+  
     <Datagallery imagedata={image1} gallerytext="Funday for the children"/>
     <Datagallery imagedata={image2} gallerytext="Funday for the children"/>
     <Datagallery imagedata={image3} gallerytext="Funday for the children"/>
