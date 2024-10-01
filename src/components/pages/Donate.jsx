@@ -23,7 +23,7 @@ function Donate() {
     </div>
     <DonateCards title="PAYPAL" message="Click the link below to donate with paypal" button= {<Link to="/paypaldonate"><button>Paypal</button></Link>} />
     <DonateCards title="ZELLE" message="To donate with Zelle used the email below" button="arayofhopeoutreachmini@gmail.com "/>
-    <DonateCards title="CASHAPP" message="To donate with CashApp used the email below" button="arayofhopeoutreachmini@gmail.com "/>
+    <DonateCards title="Other Ways to Donate" message=" If those links are not apply to you contact us for more ways to donate" button={<Link style={{textDecoration:'none', color:'black'}} to="/contact">Contact</Link>} email="Email: arayofhopeoutreachmini@gmail.com" tel="Tell: 772-882-0086"/>
   </div>
   </div>
     

@@ -25,7 +25,7 @@ alignItems: 'center',
 }}>
         <h3 style={{fontSize:'30px', marginBottom:'20px'}}>Welcome to</h3>
        <h2 style={{fontSize:'50px', marginBottom:'20px'}}>A Ray of Hope Outreach Ministries inc </h2>
-       <p style={{color:'white', fontSize:'20px',  margin:'20PX' }}>And hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.</p>
+       <p style={{color:'white', fontSize:'20px',  margin:'20PX' }}>Romans 5:5 And hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.</p>
        <div style={{width:'100%', justifyContent:'center', textAlign:'center', }}> <Link to="/about" ><button style={{width:''}}>More Info</button></Link></div>
 
        </div>

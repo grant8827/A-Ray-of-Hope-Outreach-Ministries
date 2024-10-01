@@ -8,7 +8,8 @@ function DonateCards(props) {
 <h3 style={{fontSize:'25px', margin:'20px'}}>{props.title}</h3>
 <p style={{ margin:'20px', color:'white'}}>{props.message}</p>
 <button style={{ margin:'20px'}}>{props.button}</button>
-
+<p style={{ margin:'20px', color:'white'}}>{props.email}</p>
+<p style={{ margin:'20px', color:'white'}}>{props.tel}</p>
        </div>
 
     </div>

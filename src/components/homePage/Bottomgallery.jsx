@@ -14,7 +14,7 @@ function Bottomgallery(props) {
         
         <div style={{alignItems:'center', textAlign:'center', margin:'30px'}}>
             <img style={{ width:'300PX', height:'300PX', borderRadius:'30%'}} src={image2} alt='G-Image'/>
-            <h3 style={{color:'#001385'}}>Feed the Children</h3>
+            <h3 style={{color:'#001385'}}>Feeding the Children</h3>
         </div>
 
         <div style={{alignItems:'center', textAlign:'center',  margin:'30px'}}>
