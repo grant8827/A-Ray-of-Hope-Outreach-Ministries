@@ -33,15 +33,15 @@ function Events() {
     <Datagallery imagedata={image1} gallerytext="Funday for the children"/>
     <Datagallery imagedata={image2} gallerytext="Funday for the children"/>
     <Datagallery imagedata={image3} gallerytext="Funday for the children"/>
-    <Datagallery imagedata={image4} gallerytext="children waiting for lunch"/>
+    <Datagallery imagedata={image4} gallerytext="Children waiting for lunch"/>
     <Datagallery imagedata={image6} gallerytext="Spreading the love"/>
-    <Datagallery imagedata={image8} gallerytext="community coming together"/>
-    <Datagallery imagedata={image10} gallerytext="Cake for the children"/>
-    <Datagallery imagedata={image12} gallerytext="children waiting for lunch"/>
+    <Datagallery imagedata={image8} gallerytext="Community coming together"/>
+    <Datagallery imagedata={image10} gallerytext="Hot meal provided for children and families"/>
+    <Datagallery imagedata={image12} gallerytext="Children waiting for lunch"/>
     <Datagallery imagedata={image5} gallerytext="Funday for the children"/>
-    <Datagallery imagedata={image7} gallerytext="Cake for the children"/>
+    <Datagallery imagedata={image7} gallerytext="Hot meal provided for children and families"/>
     <Datagallery imagedata={image9} gallerytext="Cotton candy for the children"/>
-    <Datagallery imagedata={image11} gallerytext="Popcorn been serve"/>
+    <Datagallery imagedata={image11} gallerytext="Popcorn being served"/>
     </div>
     
   </div>

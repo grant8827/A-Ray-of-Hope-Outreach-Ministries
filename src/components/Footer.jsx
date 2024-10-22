@@ -4,7 +4,7 @@ import '../App.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faFacebookF , faInstagram, faTiktok, faYoutube,faPaypal  } from '@fortawesome/free-brands-svg-icons';
-import { faZ, faDollar, } from '@fortawesome/free-solid-svg-icons'
+import { faZ, faContactBook, } from '@fortawesome/free-solid-svg-icons'
 import logo from '../components/assets/images/A Ray of Hope Logo3 NO BACKGROUND.png'
 
 function Footer() {
@@ -46,7 +46,7 @@ function Footer() {
                 <div style={{flexDirection:'column', display:'block'}}>
                 <Link to="/donate"><button style={{margin:'20px'}}>PayPal <FontAwesomeIcon style={{backgroundColor:'white', padding:'3px', width:"18PX", borderRadius:'50%', color:'#0790d0'}} icon={faPaypal} /></button></Link>
                 <Link to="/donate"><button style={{margin:'20px'}}>Zelle <FontAwesomeIcon style={{backgroundColor:'white', padding:'3px', width:"18PX", borderRadius:'50%', color:'#6911d2'}} icon={faZ} /></button></Link>
-                <Link to="/donate"><button style={{margin:'20px'}}>Cash App <FontAwesomeIcon style={{backgroundColor:'green', color:'white', padding:'3px', width:"18PX", borderRadius:'50%'}} icon={faDollar} /></button></Link>
+                <Link to="/donate"><button style={{margin:'20px'}}>Contat us<FontAwesomeIcon style={{backgroundColor:'green',marginLeft:'8px', color:'white', padding:'3px', width:"18PX", borderRadius:'50%'}} icon={faContactBook} /></button></Link>
          
                 </div>
                 
