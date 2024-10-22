@@ -18,7 +18,7 @@ function HomePage() {
       <div style={{marginTop:'50px'}}>
       <Section1 image={Section1img} 
         title="Founder: Kareen Dixon Stewart" 
-        textDetails=" I grew up in Spanish Town, St Catherine. My father was a Carpenter and my mom worked at a restaurant. The family faced numerous challenges, but despite limited resources; my parents instilled in me values of hard work and compassion. Driven by a desire to help others, I pursued a nursing degree, overcoming obstacles along the way. Today, I am a dedicated nurse, known for my empathy and commitment to my patients. I believes in the power of giving back. My journey from humble beginnings to a Community leader is a testament to my resilience and unwavering dedication to making a difference in the lives of others."/>
+        textDetails=" I grew up in Spanish Town, St Catherine. My father was a Carpenter and my mom worked at a restaurant. The family faced numerous challenges, but despite limited resources; my parents instilled in me values of hard work and compassion. Driven by a desire to help others, I pursued a nursing degree, overcoming obstacles along the way. Today, I am a dedicated nurse, known for my empathy and commitment to my patients. I believe in the power of giving back. My journey from humble beginnings to a Community leader is a testament to my resilience and unwavering dedication to making a difference in the lives of others."/>
       </div>
  
       <div className='slideShow'>
