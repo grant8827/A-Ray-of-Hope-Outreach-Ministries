@@ -29,7 +29,6 @@ alignItems: 'center',
        <div style={{width:'100%', justifyContent:'center', textAlign:'center', }}> <Link to="/about" ><button style={{width:''}}>More Info</button></Link></div>
 
        </div>
-      
         </div>
   )
 }
