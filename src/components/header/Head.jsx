@@ -20,7 +20,7 @@ function Head() {
     backgroundImage: "url(" + headImg + ")",}} >
       
        <Navbar/>
-       <div  style={{textAlign: 'center',justifyContent:'center', alignContent:'center',height:'700px',
+       <div className='headerText' style={{textAlign: 'center',justifyContent:'center', alignContent:'center',height:'700px',
 alignItems: 'center',
 }}>
         <h3 style={{fontSize:'30px', marginBottom:'20px'}}>Welcome to</h3>

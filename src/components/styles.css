@@ -40,6 +40,11 @@ top: 250px;
     align-items: center;
     text-align: center;
 }
+.LogoText{
+  font-Size:'25px';
+  text-align:'start';
+  margin:'10px';
+}
 .navLinks{
     display: flex;
     padding: 10px;
@@ -287,3 +292,17 @@ transition-delay: 0.3s;
   
   }
    }
+
+   
+
+   @media only screen and (max-width: 360px) {
+    .LogoText{
+      font-size: 18px;
+    }
+    .navbarItem{
+height: 80px;
+    }
+   .headerText{
+    padding-top : 50px;
+   }
+    }

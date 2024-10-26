@@ -14,14 +14,16 @@ function Navbar() {
         }
     };
     window.addEventListener("scroll", changeNavbarColor);
-
+const LogoText ={
+    
+}
     
   return (
     <div className={colorChange
         ? "navbar colorChange"
         : "navbar"}>
         <nav className='navbarItem'>
-            <h1 style={{fontFamily:'Fantasy, serif', fontSize:'25px', textAlign:'start', margin:'10px' }}>A Ray of Hope Outreach Ministries</h1>
+            <h1 className="LogoText" style={{ fontFamily:'Fantasy, serif',  }}>A Ray of Hope Outreach Ministries</h1>
             <ul className='navLinks'>
 <li><Link to='/'>HOME</Link></li>
 <li><Link to="/about" >ABOUT</Link></li>
