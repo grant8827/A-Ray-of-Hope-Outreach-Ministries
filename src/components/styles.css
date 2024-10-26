@@ -298,10 +298,11 @@ transition-delay: 0.3s;
     .LogoText{
       font-size: 18px;
     }
-    .navbarItem{
-height: 80px;
-    }
+ 
    .headerText{
     padding-top : 50px;
+   }
+   .navbar{
+    padding: 20px;
    }
     }
