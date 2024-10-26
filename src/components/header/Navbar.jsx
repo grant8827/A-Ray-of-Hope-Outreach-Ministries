@@ -14,9 +14,7 @@ function Navbar() {
         }
     };
     window.addEventListener("scroll", changeNavbarColor);
-const LogoText ={
-    
-}
+
     
   return (
     <div className={colorChange
