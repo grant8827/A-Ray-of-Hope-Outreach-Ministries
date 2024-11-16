@@ -41,8 +41,8 @@ function Footer() {
             </div>
 
             <div style={{ margin:'20px', padding:'20px'}}>
-                <h3 style={{fontSize:'20px', marginBottom:'35px'}}>Ways To Danate</h3>
-                <p  style={{color:'var(--white', marginBottom:'20px'}}>You Donation of any amount is greatly apreciated</p>
+                <h3 style={{fontSize:'20px', marginBottom:'35px'}}>Ways To Donate</h3>
+                <p  style={{color:'var(--white', marginBottom:'20px'}}>Your Donation of any amount is greatly apreciated</p>
                 <div style={{flexDirection:'column', display:'block'}}>
                 <Link to="/donate"><button style={{margin:'20px'}}>PayPal <FontAwesomeIcon style={{backgroundColor:'white', padding:'3px', width:"18PX", borderRadius:'50%', color:'#0790d0'}} icon={faPaypal} /></button></Link>
                 <Link to="/donate"><button style={{margin:'20px'}}>Zelle <FontAwesomeIcon style={{backgroundColor:'white', padding:'3px', width:"18PX", borderRadius:'50%', color:'#6911d2'}} icon={faZ} /></button></Link>
