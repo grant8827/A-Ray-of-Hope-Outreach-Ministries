@@ -10,6 +10,9 @@ function DrawerMenu() {
     const toggleDrawer = () => {
         setIsOpen((prevState) => !prevState)
     }
+    const closeDrawer = () => {
+        setIsOpen(false)
+    }
     let menuBar = (<FontAwesomeIcon style={{fontSize:'28px', transitionTimingFunction: 'ease-in-out'}}  icon={faBars } />)
     let closeMenu = (<FontAwesomeIcon style={{fontSize:'30px', transitionTimingFunction: 'ease-in-out'}} icon={faMultiply  } />)
    
@@ -25,10 +28,10 @@ function DrawerMenu() {
                 <div style={{textAlign:'start', margin:'10px' }}>
                 <h2 style={{fontSize:'20px', marginBottom:'20px'}}>A Ray of Hope Outreach Ministries inc</h2>
                 <ul className='DrawerLinks'>
-<li ><Link  to='/'>HOME</Link></li>
-<li ><Link  to="/about" >ABOUT</Link></li>
-<li ><Link  to='/events' >OUR WORK</Link></li>
-<li ><Link  to='/contact'>CONTACT</Link></li>
+<li onClick={closeDrawer} ><Link  to='/'>HOME</Link></li>
+<li onClick={closeDrawer}  ><Link  to="/about" >ABOUT</Link></li>
+<li onClick={closeDrawer}  ><Link  to='/events' >OUR WORK</Link></li>
+<li onClick={closeDrawer}  ><Link  to='/contact'>CONTACT</Link></li>
 
 
             </ul>
